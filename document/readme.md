@@ -58,6 +58,8 @@ muc tieu: tao duoc website dau tien cho rieng minh
 - bug: loi phan mem
 - SEO: blog, ban hang
 - Comment code: tạm ẩn đoạn code đi
+- Customization: chỉnh sửa 1 số chi tiết có sẵn cho phù hợp với yêu cầu cụ thể của dự án
+- rem: đơn vị đo trong CSS, = 16px
 ***
 ### Link room
 https://meet.google.com/iun-unom-cnr
