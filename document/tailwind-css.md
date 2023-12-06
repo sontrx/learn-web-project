@@ -37,3 +37,20 @@ fixed: neo vị trí theo các rìa của màn hình
 - sticky: gần giống fixed, nhưng hoạt động với croll bar
 - top/right/bottom/left
 - z-index: thứ tự của phần tử khi nằm chồng lặp lên phần tử khác
+
+### Flexbox
+- flex
+- flex basis: quy định kích thước của các phần tử con trong 1 flex box, các giá trị: https://tailwindcss.com/docs/flex-basis
+- flex direction: quy định sự sắp xếp của các phần tử con là theo chiều ngang (row) hay dọc (column)
+- flex wrap: quy định nếu tổng kích thước của các phần tử con lớn hơn kích thước của phần tử cha, thì sẽ cho xuống dòng hay tràn viền
+- flex-1 / flex-initial: quy định phần tử con chiếm bao nhiêu diện tích so với các phần tử còn lại. (flex-grow/flex-shrink)
+- order: quy định thứ tự của các phần tử con
+
+grid:
+- dùng để chia bố cục giao diện: kiểu lưới
+- cạnh tranh với flex
+
+khi nào dùng flex?
+
+flex: justify-content, align-items
+grid: justify-items, align-content
