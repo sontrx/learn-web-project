@@ -78,12 +78,40 @@ margin: tương tự padding
 - font-size: cỡ chữ, độ to nhỏ. giá trị px
 - font-family: ví dụ `font-family: 'Roboto', sans-serif;`
 - https://www.w3schools.com/cssref/css3_pr_font-face_rule.php
+- letter-spacing: khoảng cách giữa các chữ cái trong câu
+- line-clamp: không hiển thị hết các chữ mà chỉ hiển thị n dòng kèm dấu '...'
+- line-height: chiều cao dòng
+- list-style: hình dấu chấm tròn/ chữ số trước các list-item (thẻ ul -> li, hoặc ol -> li)
+- text align: căn lề chữ (trái / phải / giữa / đồng đều)
+- text-color: màu
+- text-decoration: gạch dưới (gạch trên/ gạch ngang) chữ
+- text-transform: in hoa hay in thường chữ
+- text-overflow: khi chiều rộng của dòng không đủ để hiển thị hết trọn vẹn 1 từ (word)
+- text-indent: canh lề chữ đầu tiên của đoạn văn bản
+- vertical-align: nếu chiều cao dòng (line height) lớn quá so với cỡ chữ (font size), thì chữ sẽ nằm ở vị trí nào của dòng: top, bottom, middle
+- white-space: quy định việc hiển thị đoạn văn bản khi trong code có nhiều khoảng trắng (dấu cách- space) và có cho xuống dòng chữ không
+- word-break: nếu một từ (word) có nhiều chữ cái (letter) quá, hiển thị trên 1 dòng hay cho xuống dòng
+- 
 
+khái niệm:
+- đoạn văn bản: paragraph (tương ứng thẻ p)
+- 1 đoạn văn bản có nhiều dòng: line
+- 1 dòng có nhiều từ: word
+- 1 từ có chiều chữ cái: letter
 ```css
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/Roboto.ttf) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
 html {
     font-family: 'Roboto', sans-serif;
 }
 
 ```
 https://fonts.google.com/
-- 
+
