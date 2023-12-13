@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <div style="height: 900px; margin-top: 300px">--------------------------------------------</div>
+    <p class="tracking-tight ...">The quick brown fox ...</p>
+    <p class="tracking-normal ...">The quick brown fox ...</p>
+    <p class="tracking-wide ...">The quick brown fox ...</p>
+    <p class="font-light ...">The quick brown fox ...</p>
+    <p class="font-normal ...">The quick brown fox ...</p>
+    <p class="font-medium ...">The quick brown fox ...</p>
+    <p class="font-semibold ...">The quick brown fox ...</p>
+    <p class="font-bold ...">The quick brown fox ...</p>
+    <div class="flex">
+        <div class="bg-indigo-700 w-1/2">01</div>
+        <div class="bg-indigo-700 w-1/2">02</div>
+    </div>
+    <div class="bg-red-500 p-5 w-2/3">
+        <div class="bg-blue-500 w-max-content">con</div>
+        <div class="bg-blue-500 mt-1">con 2</div>
+    </div>
+    <div class="flex flex-col space-y-4">
+        <div class="bg-indigo-700">01</div>
+        <div class="bg-indigo-700">02</div>
+        <div class="bg-indigo-700">03</div>
+        <div class="bg-indigo-700">03</div>
+        <div class="bg-indigo-700">03</div>
+        <div class="bg-indigo-700">03</div>
+        <div class="bg-indigo-700">03</div>
+    </div>
+    <div class="flex space-x-2.5">
+        <div class="bg-indigo-700">01</div>
+        <div class="bg-indigo-700">02</div>
+        <div class="bg-indigo-700">03</div>
+    </div>
+    <div class="py-1 bg-indigo-700">padding</div>
     <div class="grid grid-cols-4 gap-4">
         <div class="bg-blue-400">01</div>
         <div class="bg-blue-400">02</div>
@@ -18,9 +55,6 @@
         <div class="bg-blue-400">08</div>
         <div class="bg-blue-400">09</div>
     </div>
-
-    
-    <div style="height: 900px; margin-top: 300px">--------------------------------------------</div>
     <div class="flex">
         <div class="flex-1 h-14 bg-blue-400 md:order-2">
             01
@@ -49,16 +83,9 @@
         <div class="basis-1/4 bg-blue-200">02</div>
         <div class="basis-1/2 bg-blue-300">03</div>
     </div>
-    <h2>position</h2>
-    <div class="h-96 bg-indigo-400 relative">
-        <p>parent</p>
-        <div class="relative bottom-5 left-5 bg-red-400">
-            <p>Absolute child</p>
-        </div>
-    </div>
 
     <h2>overflow</h2>
-    <div class="h-8 bg-blue-400 flex">
+    <div class="h-8 bg-blue-400 flex overflow-hidden">
         <p class="h4 w-96">fdadfafdadfafdafdadafd</p>
         <p class="h4 w-96">fdadfafdadfafdafdadafd</p>
         <p class="h4 w-96">fdadfafdadfafdafdadafd</p>

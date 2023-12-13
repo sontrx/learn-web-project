@@ -54,3 +54,36 @@ khi nào dùng flex?
 
 flex: justify-content, align-items
 grid: justify-items, align-content
+
+### spacing
+- padding theo 4 phía: p-0, p-1...
+- padding theo phương ngang: px-1, px-2 ...
+- padding theo phương dọc: py-1, py-2 ...
+- pt-1, pl-1, pr-1, pb-1
+
+margin: tương tự padding
+
+- space-between: khoảng cach giua cac phan tu con
+
+### sizing
+- width: w-1/2, w-1/3
+- min-width, max-width tương tự
+- height: tương tự cách dùng như width
+
+### typography
+- các thuộc tính liên quan đến chữ, font chữ, độ đậm nhạt ...
+#### font
+- font-style: normal (bình thường mặc định) / italic (nghiêng)
+- font-weight: độ đậm nhạt của chữ, giá trị: 100 -> 900;
+- font-size: cỡ chữ, độ to nhỏ. giá trị px
+- font-family: ví dụ `font-family: 'Roboto', sans-serif;`
+- https://www.w3schools.com/cssref/css3_pr_font-face_rule.php
+
+```css
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+```
+https://fonts.google.com/
+- 
