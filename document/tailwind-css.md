@@ -114,7 +114,15 @@ https://fonts.google.com/
 - vertical-align: nếu chiều cao dòng (line height) lớn quá so với cỡ chữ (font size), thì chữ sẽ nằm ở vị trí nào của dòng: top, bottom, middle
 - white-space: quy định việc hiển thị đoạn văn bản khi trong code có nhiều khoảng trắng (dấu cách- space) và có cho xuống dòng chữ không
 - word-break: nếu một từ (word) có nhiều chữ cái (letter) quá, hiển thị trên 1 dòng hay cho xuống dòng
-- 
 
+
+### Background
+- ảnh nền của một phần tử (các thẻ html)
+- background-attachment: thuộc tính CSS quyết định trạng thái cuộn của ảnh background khi tương các với scroll-bar (scroll bar xuất hiện khi nội dung bên trong phần tử vượt quá chiều cao của nó)
+- background-clip: quyết định xem phần diện tích chiếm được của background bên trong phần tử text -> content -> padding -> border
+- background-color: màu nền của phần tử
+- background-position: khi kích thước của ảnh background lớn hơn kích thước của phần tử thì hiển thị vị trí nào của ảnh
+- background-repeat: khi kích thước ảnh nhỏ hơn kích thước phần tử (thường là trường hợp nhỏ hơn nhiều lần) thì quyết định xem sẽ hiển thị background như nào
+- background-size: điều chỉnh kích thước ảnh cho vừa vặn với kích thước theo 1 chiều (contain) hoặc tất cả các chiều (cover) của phần tử
 
 
