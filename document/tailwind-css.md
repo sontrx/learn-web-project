@@ -72,26 +72,6 @@ margin: tương tự padding
 
 ### typography
 - các thuộc tính liên quan đến chữ, font chữ, độ đậm nhạt ...
-#### font
-- font-style: normal (bình thường mặc định) / italic (nghiêng)
-- font-weight: độ đậm nhạt của chữ, giá trị: 100 -> 900;
-- font-size: cỡ chữ, độ to nhỏ. giá trị px
-- font-family: ví dụ `font-family: 'Roboto', sans-serif;`
-- https://www.w3schools.com/cssref/css3_pr_font-face_rule.php
-- letter-spacing: khoảng cách giữa các chữ cái trong câu
-- line-clamp: không hiển thị hết các chữ mà chỉ hiển thị n dòng kèm dấu '...'
-- line-height: chiều cao dòng
-- list-style: hình dấu chấm tròn/ chữ số trước các list-item (thẻ ul -> li, hoặc ol -> li)
-- text align: căn lề chữ (trái / phải / giữa / đồng đều)
-- text-color: màu
-- text-decoration: gạch dưới (gạch trên/ gạch ngang) chữ
-- text-transform: in hoa hay in thường chữ
-- text-overflow: khi chiều rộng của dòng không đủ để hiển thị hết trọn vẹn 1 từ (word)
-- text-indent: canh lề chữ đầu tiên của đoạn văn bản
-- vertical-align: nếu chiều cao dòng (line height) lớn quá so với cỡ chữ (font size), thì chữ sẽ nằm ở vị trí nào của dòng: top, bottom, middle
-- white-space: quy định việc hiển thị đoạn văn bản khi trong code có nhiều khoảng trắng (dấu cách- space) và có cho xuống dòng chữ không
-- word-break: nếu một từ (word) có nhiều chữ cái (letter) quá, hiển thị trên 1 dòng hay cho xuống dòng
-- 
 
 khái niệm:
 - đoạn văn bản: paragraph (tương ứng thẻ p)
@@ -114,4 +94,27 @@ html {
 
 ```
 https://fonts.google.com/
+
+#### font
+- font-style: normal (bình thường mặc định) / italic (nghiêng)
+- font-weight: độ đậm nhạt của chữ, giá trị: 100 -> 900;
+- font-size: cỡ chữ, độ to nhỏ. giá trị px
+- font-family: ví dụ `font-family: 'Roboto', sans-serif;`
+- https://www.w3schools.com/cssref/css3_pr_font-face_rule.php
+- letter-spacing: khoảng cách giữa các chữ cái trong câu
+- line-clamp: không hiển thị hết các chữ mà chỉ hiển thị n dòng kèm dấu '...'
+- line-height: chiều cao dòng
+- list-style: hình dấu chấm tròn/ chữ số trước các list-item (thẻ ul -> li, hoặc ol -> li)
+- text align: căn lề chữ (trái / phải / giữa / đồng đều)
+- text-color: màu
+- text-decoration: gạch dưới (gạch trên/ gạch ngang) chữ
+- text-transform: in hoa hay in thường chữ
+- text-overflow: khi chiều rộng của dòng không đủ để hiển thị hết trọn vẹn 1 từ (word)
+- text-indent: canh lề chữ đầu tiên của đoạn văn bản
+- vertical-align: nếu chiều cao dòng (line height) lớn quá so với cỡ chữ (font size), thì chữ sẽ nằm ở vị trí nào của dòng: top, bottom, middle
+- white-space: quy định việc hiển thị đoạn văn bản khi trong code có nhiều khoảng trắng (dấu cách- space) và có cho xuống dòng chữ không
+- word-break: nếu một từ (word) có nhiều chữ cái (letter) quá, hiển thị trên 1 dòng hay cho xuống dòng
+- 
+
+
 
