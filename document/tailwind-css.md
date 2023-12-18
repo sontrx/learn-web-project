@@ -125,4 +125,9 @@ https://fonts.google.com/
 - background-repeat: khi kích thước ảnh nhỏ hơn kích thước phần tử (thường là trường hợp nhỏ hơn nhiều lần) thì quyết định xem sẽ hiển thị background như nào
 - background-size: điều chỉnh kích thước ảnh cho vừa vặn với kích thước theo 1 chiều (contain) hoặc tất cả các chiều (cover) của phần tử
 
-
+### Border, outline
+- thuộc tính quyết định viền của phần tử
+- độ dày đường viền: border-width (px)
+- màu sắc đường viền: border-color (red, blue, #dfadfadf)
+- loại hình đường viền: dotted (chấm chấm), solid (đường liền)
+- độ cong viền: border-radius
