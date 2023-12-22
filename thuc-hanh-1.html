@@ -7,15 +7,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="bg-gray-900 px-6 py-3 flex">
-        <img class="w-10 h-10" src="images/mark.svg" alt="logo">
+    <div class="bg-gray-900 px-6 py-3 flex items-center">
+        <img class="w-8 h-8" src="images/mark.svg" alt="logo">
 
-        <div class="flex text-gray-100 ml-8">
-            <div class="mr-4">Dashboard</div>
-            <div class="mr-4">Team</div>
-            <div class="mr-4">Projects</div>
-            <div class="mr-4">Cadendars</div>
-            <div class="mr-4">Report</div>
+        <div class="flex text-gray-500 ml-8 items-center">
+            <div class="mr-4 bg-slate-950 py-2 px-3 rounded-lg">Dashboard</div>
+            <div class="mr-4 py-2 px-3 rounded-lg hover:bg-slate-600">Team</div>
+            <div class="mr-4 py-2 px-3 rounded-lg hover:bg-slate-600">Projects</div>
+            <div class="mr-4 py-2 px-3 rounded-lg hover:bg-slate-600">Cadendars</div>
+            <div class="mr-4 py-2 px-3 rounded-lg hover:bg-slate-600">Report</div>
+        </div>
+
+        <div class="flex items-center ml-auto text-gray-500 hover:text-gray-100">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0">
+                </path>
+            </svg>
+            <img class="h-8 w-8 ml-2 rounded-full" src="images/photo-1472099645785-5658abf4ff4e.avif" alt="man">
         </div>
     </div>
 </body>
