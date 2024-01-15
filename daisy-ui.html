@@ -8,14 +8,36 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="container mx-auto p-8 border rounded-lg my-3 h-full bg-gray-100">
-        <details class="dropdown">
-            <summary class="m-1 btn">open or close</summary>
+    <div class="container mx-auto p-8 border rounded-lg my-3 h-full bg-gray-100 flex flex-col justify-center items-center">
+        
+        <details class="dropdown dropdown-end">
+            <summary class="w-20 h-20 btn p-0">
+                <img class="w-full h-full rounded-full" src="images/tree-736885_1280.jpg" alt="">
+            </summary>
             <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                <li><a>Item 1</a></li>
-                <li><a>Item 2</a></li>
+                <li>1. <a>để làm menu dạng xổ xuống</a></li>
+                <li>2. <a> có 2 class thành phần chính yếu: `dropdown` và `dropdown-content`</a></li>
+                <li>3. <a> `dropdown-content` trong trường hợp mặc định chưa có vai trò gì, nhưng khi thêm các class khác vào, thì cần có để component hoạt động</a></li>
             </ul>
         </details>
+
+
+        <div class="my-8 text-indigo-600 text-3xl">
+            <!-- You can open the modal using ID.showModal() method -->
+            <button class="btn text-red" onclick="my_modal_3.showModal()">open modal</button>
+            <dialog id="my_modal_3" class="modal">
+                <div class="modal-box px-8">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <div>
+                        hello
+                    </div>
+                </div>
+            </dialog>
+        </div>
+
     </div>
 </body>
 </html>
